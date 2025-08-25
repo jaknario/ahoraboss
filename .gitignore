@@ -1,0 +1,12 @@
+# dependencias
+/node_modules
+
+# build
+/dist
+
+# Server
+server/
+
+# variables privadas
+.env
+.env.local
