@@ -1,4 +1,5 @@
 import React from 'react'
+import logo_ig_bgw from "../assets/image/logo_ig_bgw.png";
 
 export const NavBarr = () => {
   return (
@@ -6,7 +7,7 @@ export const NavBarr = () => {
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           <img
-            src="/src/assets/image/logo_ig_bgw.png"
+            src={logo_ig_bgw}
             alt="Logo"
             width="50"
             height="50"

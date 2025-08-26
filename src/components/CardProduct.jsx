@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from 'react-bootstrap';
 import ButtonsGroup from './ButtonsGroup';
+import { imagen2, imagen3, imagen4 } from '../assets/image/index.js'
 
 export const CardProduct = () => {
   // Array de configuración de los botones
@@ -24,9 +25,9 @@ export const CardProduct = () => {
         <div className="col">
           <div className="card h-100">
             <img
-              src="/src/assets/image/2.jpg"
-              className="card-img-top"
+              src={imagen2}
               alt="product"
+              className="card-img-top"
             />
             <div className="card-body">
               <h5 className="card-title">DISPARA TUS VENTAS CON IA</h5>
@@ -47,9 +48,9 @@ export const CardProduct = () => {
         <div className="col">
           <div className="card h-100">
             <img
-              src="/src/assets/image/3.jpg"
-              className="card-img-top"
+              src={imagen3}
               alt="product"
+              className="card-img-top"
             />
             <div className="card-body">
               <h5 className="card-title">TIK TOK MARKETING</h5>
@@ -71,9 +72,9 @@ export const CardProduct = () => {
         <div className="col">
           <div className="card h-100">
             <img
-              src="/src/assets/image/4.jpg"
-              className="card-img-top"
+              src={imagen4}
               alt="product"
+              className="card-img-top"
             />
             <div className="card-body">
               <h5 className="card-title">MARKETING DIGITAL</h5>

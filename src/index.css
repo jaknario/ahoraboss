@@ -16,6 +16,7 @@ body {
   max-width: 100%;
 }
 
+
 p{
   margin: 0%;
 }
@@ -166,6 +167,10 @@ p{
 }
 
 @media (max-width: 768px) {
+
+  .container-title {
+    width: 10em;
+  }
   .title{
     font-size: 1.42rem;
     text-align: center;

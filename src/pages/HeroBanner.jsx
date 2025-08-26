@@ -1,17 +1,19 @@
 import React from "react";
-
+import mockup_abss_ebook from "../assets/image/mockup_abss_ebook.png";
 export const HeroBanner = () => {
   return (
     <div className="container-fluid">
       <div className="row align-items-center">
-        <div className="col-4 mb-4 mb-md-0 p-2">
-          <h1 className="title fw-bold text-justify text-white">
-            EBOOK DE CERO A VENDEDOR ÉLITE
-          </h1>
+        <div className="container-title col-4 mb-4 mb-md-0 p-2">
+          <div className="container-fluid">
+            <h1 className="title fs-4 fw-bold text-justify text-white">
+              EBOOK DE CERO A VENDEDOR ÉLITE
+            </h1>
+            <h3 className="fw-normal text-white">
+              Crea, Vende y Escala Tu Infoproducto
+            </h3>
+          </div>
           <br />
-          <h3 className="fw-normal text-white">
-            Crea, Vende y Escala Tu Infoproducto
-          </h3>
           <p className="text-hook d-none d-md-block fs-5 fs-sm-6 text-wrap">
             Descubre el sistema exacto que usan los creadores más exitosos para
             generar ingresos 24/7, sin mostrar su rostro, sin invertir en
@@ -23,8 +25,8 @@ export const HeroBanner = () => {
         </div>
         <div className="col-8 text-center p-4">
           <img
-            src="/src/assets/image/mockup_abss_ebook.png"
-            alt="Hero Banner"
+            src={mockup_abss_ebook}
+            alt="mockup_abss_ebook"
             className="img-fluid"
             width="650px"
             height="500px"
