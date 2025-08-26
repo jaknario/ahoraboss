@@ -1,12 +1,16 @@
 import React from "react";
 import mockup_abss_ebook from "../assets/image/mockup_abss_ebook.png";
+import ButtonsGroup from "../components/ButtonsGroup";
 export const HeroBanner = () => {
+  const buttonsConfig4 = [
+    { label: "Quiero el Ebook", url: "https://pay.hotmart.com/K101334294V" },
+  ];
   return (
     <div className="container-fluid">
       <div className="row align-items-center">
         <div className="container-title col-4 mb-4 mb-md-0 p-2">
           <div className="container-fluid">
-            <h1 className="title fs-4 fw-bold text-justify text-white">
+            <h1 className="title fw-bold text-justify text-white">
               EBOOK DE CERO A VENDEDOR ÉLITE
             </h1>
             <h3 className="fw-normal text-white">
@@ -19,9 +23,9 @@ export const HeroBanner = () => {
             generar ingresos 24/7, sin mostrar su rostro, sin invertir en
             publicidad y con todo automatizado… y empieza hoy mismo.
           </p>
-          <button className="btn btn-primary text-nowrap mt-4" type="button">
-            Quiero el Ebook
-          </button>
+          <div className="col card-footer mt-4">
+            <ButtonsGroup buttons={buttonsConfig4} />
+          </div>
         </div>
         <div className="col-8 text-center p-4">
           <img
