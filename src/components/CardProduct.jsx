@@ -24,13 +24,10 @@ export const CardProduct = () => {
       <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
           <div className="card h-100">
-            <img
-              src={imagen2}
-              alt="product"
-              className="card-img-top"
-            />
+            <img src={imagen2} alt="product" className="card-img-top" />
             <div className="card-body">
-              <h5 className="card-title">DISPARA TUS VENTAS CON IA</h5>
+              <h5 className="card-title fw-bold">Dispara Tus Ventas con IA</h5>
+              <h4>Precio: U$D 445</h4>
               <p className="card-text">
                 Aprenderás cómo utilizar herramientas de Inteligencia Artificial
                 para aumentar tus ventas, ahorrando tiempo y dinero. Te
@@ -40,20 +37,17 @@ export const CardProduct = () => {
                 que harán que tus ventas se incrementen masivamente.
               </p>
             </div>
-            <div className="card-footer">
+            <div className="btn-primary">
               <ButtonsGroup buttons={buttonsConfig} />
             </div>
           </div>
         </div>
         <div className="col">
           <div className="card h-100">
-            <img
-              src={imagen3}
-              alt="product"
-              className="card-img-top"
-            />
+            <img src={imagen3} alt="product" className="card-img-top" />
             <div className="card-body">
-              <h5 className="card-title">TIK TOK MARKETING</h5>
+              <h5 className="card-title fw-bold">Tik- Tok Marketing</h5>
+              <h4>Precio: U$D 69.99</h4>
               <p className="card-text">
                 Tik Tok Marketing es el primer programa de habla hispana que te
                 explica paso a paso y desde cero, cómo puedes tener 20 mil
@@ -64,20 +58,17 @@ export const CardProduct = () => {
                 popularidad de esta era.
               </p>
             </div>
-            <div className="card-footer">
+            <div className="btn-primary">
               <ButtonsGroup buttons={buttonsConfig1} />
             </div>
           </div>
         </div>
         <div className="col">
           <div className="card h-100">
-            <img
-              src={imagen4}
-              alt="product"
-              className="card-img-top"
-            />
+            <img src={imagen4} alt="product" className="card-img-top" />
             <div className="card-body">
-              <h5 className="card-title">MARKETING DIGITAL</h5>
+              <h5 className="card-title fw-bold">Marketing Digital</h5>
+              <h4>Precio: U$D 552.99</h4>
               <p className="card-text">
                 Por la compra de este curso obtendrás no solo asesoria
                 personalizada si no que también 5 sesiones de coaching de
@@ -86,7 +77,7 @@ export const CardProduct = () => {
                 FRANCES, PORTUGUES Y ALEMAN! Tambien tiene derechos de reventa
               </p>
             </div>
-            <div className="card-footer">
+            <div className="btn-primary">
               <ButtonsGroup buttons={buttonsConfig2} />
             </div>
           </div>

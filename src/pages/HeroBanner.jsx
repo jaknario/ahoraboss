@@ -1,10 +1,10 @@
 import React from "react";
 import mockup_abss_ebook from "../assets/image/mockup_abss_ebook.png";
-import ButtonsGroup from "../components/ButtonsGroup";
+import { Button } from "react-bootstrap";
 export const HeroBanner = () => {
-  const buttonsConfig4 = [
-    { label: "Quiero el Ebook", url: "https://pay.hotmart.com/K101334294V" },
-  ];
+  // const buttonsConfig4 = [
+  //   { label: "Quiero el Ebook", url: "https://pay.hotmart.com/K101334294V" },
+  // ];
   return (
     <div className="container-fluid">
       <div className="row align-items-center">
@@ -24,7 +24,16 @@ export const HeroBanner = () => {
             publicidad y con todo automatizado… y empieza hoy mismo.
           </p>
           <div className="col card-footer mt-4">
-            <ButtonsGroup buttons={buttonsConfig4} />
+            {/* <ButtonsGroup buttons={buttonsConfig4} /> */}
+            {/* Button trigger modal */}
+            <Button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Que Vas a Aprender?
+            </Button>
           </div>
         </div>
         <div className="col-8 text-center p-4">

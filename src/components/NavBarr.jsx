@@ -11,7 +11,7 @@ export const NavBarr = () => {
             alt="Logo"
             width="50"
             height="50"
-            className="d-inline-block align-text-center"
+            className="c-logo d-inline-block align-text-center"
           />
           <span className="p-2 text-white">
             AhoraBoss

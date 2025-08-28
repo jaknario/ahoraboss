@@ -13,7 +13,7 @@ export const ButtonForm = () => {
     <>
       <Navbar>
         <Nav.Link onClick={handleShow}>
-          <i className="bi bi-envelope" style={{ fontSize: 25}}></i>
+          <i className="card-icon bi bi-envelope" style={{ fontSize: 30}} title='ahoraboss.soporte@gmail.com'></i>
         </Nav.Link>
       </Navbar>
 

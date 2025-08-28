@@ -147,9 +147,9 @@ p{
 }
 
 .container{
-  background-color: #000016;
+  background-color: #0000168a;
   max-width: 100%;
-  height: 20em;
+  height: 12em;
 }
 
 .f-text{
@@ -169,7 +169,7 @@ p{
 @media (max-width: 768px) {
 
   .container-title {
-    width: 10em;
+    width: 160px;
   }
   .title{
     font-size: 1.42rem;
