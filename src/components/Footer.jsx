@@ -13,14 +13,14 @@ export const Footer = () => {
           </footer>
         </div>
         <div className="card-icon  d-flex justify-content-around align-items-center">
-          <div>
+          <div className="img-icon">
             <a href="https://www.instagram.com" target="_blak">
-              <i className="bi bi-instagram p-2" style={{ fontSize: 30 }}></i>
+              <i className="bi bi-instagram p-2" style={{ fontSize: 25, color:"white"}}></i>
             </a>
           </div>
-          <div>
+          <div className="img-icon">
             <a href="https://www.facebook.com" target="_blank">
-              <i className="bi bi-facebook p-2" style={{ fontSize: 30 }}></i>
+              <i className="bi bi-facebook p-2" style={{ fontSize: 25, color:"white"}}></i>
             </a>
           </div>
           <div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from 'react-bootstrap';
 import ButtonsGroup from './ButtonsGroup';
 import { imagen2, imagen3, imagen4 } from '../assets/image/index.js'
 

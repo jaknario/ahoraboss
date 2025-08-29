@@ -38,6 +38,9 @@ p{
 }
 
 .container{
+  background-color: #0000168a;
+  max-width: 100%;
+  height: 12em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,12 +149,6 @@ p{
   transform: scale(1);
 }
 
-.container{
-  background-color: #0000168a;
-  max-width: 100%;
-  height: 12em;
-}
-
 .f-text{
   color: #fff;
 }
@@ -160,10 +157,9 @@ p{
   gap: 1rem;
 }
 
-.card-icon:hover{
-  cursor: pointer;
-  color: #bcbcc8;
+.img-icon:hover{
   transition: 0.5s;
+  transform: translateY(-10px);
 }
 
 @media (max-width: 768px) {

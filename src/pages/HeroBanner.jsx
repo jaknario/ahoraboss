@@ -1,10 +1,11 @@
 import React from "react";
 import mockup_abss_ebook from "../assets/image/mockup_abss_ebook.png";
 import { Button } from "react-bootstrap";
+import ButtonsGroup from "../components/ButtonsGroup";
 export const HeroBanner = () => {
-  // const buttonsConfig4 = [
-  //   { label: "Quiero el Ebook", url: "https://pay.hotmart.com/K101334294V" },
-  // ];
+    const buttonsConfig4 = [
+    { label: "Quiero el Ebook", url: "https://pay.hotmart.com/K101334294V" },
+  ];
   return (
     <div className="container-fluid">
       <div className="row align-items-center">
@@ -23,17 +24,8 @@ export const HeroBanner = () => {
             generar ingresos 24/7, sin mostrar su rostro, sin invertir en
             publicidad y con todo automatizado… y empieza hoy mismo.
           </p>
-          <div className="col card-footer mt-4">
-            {/* <ButtonsGroup buttons={buttonsConfig4} /> */}
-            {/* Button trigger modal */}
-            <Button
-              type="button"
-              class="btn btn-primary"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Que Vas a Aprender?
-            </Button>
+          <div className="mt-3 p-2">
+            <ButtonsGroup buttons={buttonsConfig4} />
           </div>
         </div>
         <div className="col-8 text-center p-4">
@@ -43,6 +35,9 @@ export const HeroBanner = () => {
             className="img-fluid"
             width="650px"
             height="500px"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            style={{ cursor: "pointer" }}
           />
         </div>
         &nbsp; &nbsp; &nbsp; &nbsp;
