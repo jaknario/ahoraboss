@@ -8,8 +8,10 @@ export const Footer = () => {
       <ContactForm />
       <div className="container container-fluid d-flex justify-content-around align-items-center">
         <div>
-          <footer className="f-text">
-            <p>© 2025 AhoraBoss. All rights reserved.</p>
+          <footer className="f-text text-start">
+            <p>© 2025 | AhoraBoss | Todos los derechos reservados.</p>
+            <br/>
+            <p>Principio de éxito: Actitud Mental Positiva</p>
           </footer>
         </div>
         <div className="card-icon  d-flex justify-content-around align-items-center">
